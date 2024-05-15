@@ -1,15 +1,9 @@
-function add(a, b) {
-    return a + b;
-}
+// calc.js
 
-function subtract(a, b) {
-    return a - b;
-}
+const { add, subtract, multiply, divide } = require('./src/calculator');
 
-function multiply(a, b) {
-    return a * b;
-}
-
-console.log(add(3,2));
-console.log(subtract(5,2));
-console.log(multiply(8,2));
+// Perform some calculations
+console.log("1 + 2 =", add(1, 2));
+console.log("3 - 1 =", subtract(3, 1));
+console.log("2 * 4 =", multiply(2, 4));
+console.log("10 / 2 =", divide(10, 2));

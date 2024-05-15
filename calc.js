@@ -11,5 +11,5 @@ function multiply(a, b) {
 }
 
 console.log(add(3,2));
-console.log(subtract(5,2));
+console.log(subtract(5,8));
 console.log(multiply(8,2));
